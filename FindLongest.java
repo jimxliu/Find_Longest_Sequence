@@ -12,8 +12,8 @@ public class FindLongest {
 		int max = 0; // Length of Longest sequence
 		Scanner sc = null; 
 
-		try{
-			sc = new Scanner(new File(args[0]));		
+		try{ 
+			sc = new Scanner(new File(args[0]));	// Read the input file	
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
