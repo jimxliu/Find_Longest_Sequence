@@ -28,7 +28,7 @@ public class FindLongest {
 				curName = line; // reset the current sequence name 
 				curSeq = "";  // reset the current sequence to ""
 		 	} else {
-				curSeq += line; // Add more nucleotides to the current sequence. Sometimes the sequence is split into multiple lines.
+				curSeq += line; // Add more nucleotides to the current sequence. Just in case the sequence is split into multiple lines.
 			}
 		}
 		if(curSeq.length() > max){
